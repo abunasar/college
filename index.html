@@ -231,7 +231,7 @@
         <span class="countdown" id="countdown">10</span> seconds.
       </p>
       <button class="cancel-button" id="cancelRedirect" type="button">
-        Cancel automatic redirect
+        Cancel redirect
       </button>
     </section>
   </main>
@@ -251,7 +251,7 @@
     const statusMessage = document.getElementById("statusMessage");
     const cancelButton = document.getElementById("cancelRedirect");
 
-    const REDIRECT_DELAY_SECONDS = 2;
+    const REDIRECT_DELAY_SECONDS = 1;
     let remainingSeconds = REDIRECT_DELAY_SECONDS;
     let redirectTimer = null;
     let redirectCancelled = false;
